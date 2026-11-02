@@ -14,11 +14,14 @@
 	"license": "CC0-1.0",
 	"icon": "assets/ah-sniper/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"xsamples.ah.sniper.AhSniper"
-		]
-	},
+	    "entrypoints": {
+        "main": [
+            "xsamples.ah.sniper.AhSniper"
+        ],
+        "client": [
+            "xsamples.ah.sniper.AhSniperClient"
+        ]
+    },
 	"mixins": [
 		"ah-sniper.mixins.json"
 	],
